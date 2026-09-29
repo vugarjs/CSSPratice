@@ -1,24 +1,207 @@
-#comp {
-    font-size: 80px;
-
-    margin-left: 800px;
+#comp{
+    font-size: 100px;
+    margin-left: 2px;
+    margin-top: 2px;
+    position: absolute;
 }
 #desing{
-    font-size: 80px;
-
-    margin-left: 400px;
+        margin-left: 2px;
+    margin-top: 4px;
+    font-size: 100px;
+    position: absolute;
 }
-#programming{
-    font-size: 80px;
-    margin-top: 200px;
-    margin-left: 800px;
+#program{
+        margin-left: 2px;
+    margin-top: 4px;
+    font-size: 100px;
+    position: absolute;
+}
+#server{
+        margin-left: 2px;
+    margin-top: 2px;
+    font-size: 100px;
+    position: absolute;
 }
 .container {
-    width: 150px; 
-    height: 5px; 
-
-    margin-top: 250px;
-    margin-left: 50px;
+    width: 130px;
+    position: absolute;
+    height: 4px;
+    margin-top: 350px;
+    left: 125px;
     background: linear-gradient(90deg, #00B050 0%, #0070C0 20%, #7030A0 40%, #C00000 60%, #FF9900 80%, #FFC000 100%);
-    border-radius: 2px; 
+    border-radius: 2px;
+}
+.compcontainer {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 1000px;
+    margin-top: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #796a6a41;
+}
+.desingcontainer {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 1351px;
+    margin-top: 300px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #796a6a41;;
+}
+.programmingcontainer {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 1000px;
+    margin-top: 551px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #796a6a41;
+}
+.servercontainer {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    left: 1351px;
+    margin-top: 551px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #796a6a41;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    position: absolute;
+    left: 120px;
+    margin-top: 220px;
+    font-size: 40px;
+}
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    position: absolute;
+    left: 120px;
+    margin-top: 400px;
+    font-size: 15px;
+}
+@font-face {
+  font-family: 'centurybold';
+  src: url('../fonts/centurybold.ttf') format('truetype'); /* Vergül nöqtəli vergüllə əvəzləndi */
+}
+#digit{
+    font-family: 'centurybold', Courier;
+    position: absolute;
+    left: 25px;
+    margin-top: 200px;
+    color: #4a4a4a;
+    font-size: 25px;
+}
+.direction {
+    font-family: 'centurybold', Courier;
+    position: absolute;
+    left: 1500px;
+    margin-top: 880px;
+    color: #0d1858;
+    font-size: 25px;
+    
+}
+
+/* academy html  */
+.buraxilis{
+    position: absolute;
+    left: 300px;
+    margin-top: 50px;
+}
+.buraxilish1 {
+    font-family: 'centurybold', Courier;
+    position: absolute;
+    left: 550px;
+    margin-top: 50px;
+    color: #4a4a4a;
+    font-size: 25px;
+
+}
+.buraxilisp {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 550px;
+    margin-top: 100px;
+    color: #4a4a4a;
+    font-size: 18px;
+
+}
+
+.praktika{
+    position: absolute;
+    left: 1000px;
+    margin-top: 50px;
+}
+
+.praktikah1{
+    font-family: 'centurybold', Courier;
+    position: absolute;
+    left: 1250px;
+    margin-top: 50px;
+    color: #4a4a4a;
+    font-size: 25px;
+}
+.praktikap{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1250px;
+    margin-top: 100px;
+    color: #4a4a4a;
+    font-size: 18px;
+}
+
+.trhanskp{
+    position: absolute;
+    left: 300px;
+    margin-top: 400px;
+}
+
+.transkph1{
+    font-family: 'centurybold', Courier;
+    position: absolute;
+    left: 550px;
+    margin-top: 400px;
+    color: #4a4a4a;
+    font-size: 25px;
+}
+
+.transkpp{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 550px;
+    margin-top: 450px;
+    color: #4a4a4a;
+    font-size: 18px;
+}
+
+.mentor{
+    position: absolute;
+    left: 1000px;
+    margin-top: 400px;
+}
+
+.mentorp{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 1250px;
+    margin-top: 450px;
+    color: #4a4a4a;
+    font-size: 18px;
+}
+
+.mentoh1{
+    font-family: 'centurybold', Courier;
+    position: absolute;
+    left: 1250px;
+    margin-top: 400px;
+    color: #4a4a4a;
+    font-size: 25px;
 }
