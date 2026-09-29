@@ -1,0 +1,24 @@
+#comp {
+    font-size: 80px;
+
+    margin-left: 800px;
+}
+#desing{
+    font-size: 80px;
+
+    margin-left: 400px;
+}
+#programming{
+    font-size: 80px;
+    margin-top: 200px;
+    margin-left: 800px;
+}
+.container {
+    width: 150px; 
+    height: 5px; 
+
+    margin-top: 250px;
+    margin-left: 50px;
+    background: linear-gradient(90deg, #00B050 0%, #0070C0 20%, #7030A0 40%, #C00000 60%, #FF9900 80%, #FFC000 100%);
+    border-radius: 2px; 
+}
